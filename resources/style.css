@@ -1,0 +1,252 @@
+* {
+  margin: 0;
+  border: 0 !important;
+}
+
+body {
+  font-family: Helvetica;
+  color: seashell;
+  opacity: 0.9;
+  background-color: black;
+  font-size: 22px;
+}
+
+/* Header */
+
+
+.main-container {
+  border-bottom: 1px solid seashell !important;
+  width: 100%;
+  position: fixed;
+}
+
+.header-container {
+  display: inline-flex;
+  height: 69px;
+  max-width: 100%;
+  background: black;
+  border: 1px solid red;
+}
+
+.logo-container {
+  border: 1px solid red;
+  z-index: 15;
+}
+
+img.logo {
+  height: 50px;
+  padding: 10px 0px 5px 10px;
+  z-index: 15;
+}
+
+a.header-list {
+  text-decoration: underline;
+  color: white;
+}
+
+li.list {
+  list-style: none;
+  display: inline;
+  margin-left: 25px;
+}
+
+.header-list-container {
+  display: inline-flex;
+  justify-content: flex-end;
+  border: 1px solid green;
+  width: 99.5%;
+  position: absolute;
+  height: 69px;
+  align-items: center;
+  background-color: black;
+  z-index: 10;
+}
+
+/* Landing Page*/
+
+.container {
+  border: 1px solid red;
+  max-width: 100%;
+  padding-top: 70px;
+  z-index: -10;
+  display: flex;
+  position: absolute;
+  width: 99.9%;
+  justify-content: center;
+  height: 92%;
+}
+
+.image-container {
+  border: 1px solid green;
+  justify-content: center;
+  position: absolute;
+  padding: 0;
+  height: 100px;
+}
+
+img.background-image {
+  height: 770px;
+  z-index: 11;
+  width: 1200px;
+}
+
+.our-mission-container {
+  z-index: 14;
+  align-self: center;
+  margin-top: -200px;
+  text-align: center;
+  background-color: black;
+  padding: 10px 300px;
+}
+
+.our-mission {
+  padding-bottom: 20px;
+}
+
+/* Tea Of The Month */
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.tea-of-the-month {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid white;
+  width: 1000px;
+  margin-top: 900px;
+  z-index: 15;
+  text-align: center;
+}
+
+.first-row-container {
+  flex-direction: row;
+  justify-content: center;
+  position: relative;
+  margin-top: 20px;
+  border: 1px solid green;
+  display: flex;
+}
+
+.fall-berry {
+  border: 1px solid orange;
+}
+
+.height {
+  height: 200px;
+}
+
+.spiced-rum {
+  padding-left: 30px;
+}
+
+.seasonal-donuts {
+  padding-left: 30px;
+}
+
+.second-row-container {
+  border: 1px solid white;
+  margin-top: 260px;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.bedford-bizarre {
+  padding-left: 30px;
+}
+
+/* Locations*/
+
+.locations-container {
+  border: 3px solid pink;
+  padding-top: 1500px;
+  display: flex;
+  justify-content: center;
+}
+
+.locations {
+  width: 1200px;
+  height: 500px;
+  object-fit: cover;
+  border: 5px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.row-container {
+  width: 1100px;
+  height: auto;
+  border: 1px solid pink;
+  position: relative;
+  display: flex;
+  top: -430px;
+  left: 50px;
+  justify-content: center;
+  padding-top: 60px;
+}
+
+.image-text-container {
+  border: 1px solid white;
+  position: absolute;
+  width: 99.9%;
+  height: 500px;
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.downtown {
+  width: 300px;
+  background-color: black;
+  text-align: center;
+}
+
+.padding-bottom {
+  padding-bottom: 30px;
+}
+
+.padding-top {
+  padding-top: 20px;
+}
+
+.east-bayside {
+  text-align: center;
+  background-color: black;
+  margin-left: 40px;
+  width: 300px;
+}
+
+.oakdale {
+  width: 300px;
+  text-align: center;
+  background-color: black;
+  margin-left: 40px;
+}
+
+.locations-header-text {
+  text-align: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+}
+
+/* Footer */
+
+.footer-container {
+  display: block;
+  border: 1px solid white;
+  margin-top: 515px;
+  text-align: center;
+}
+
+.copyright {
+  text-align: left;
+  border: 1px solid red;
+  padding: 0px 0px 30px 20px;;
+}
